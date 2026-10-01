@@ -1,0 +1,10 @@
+<sitemesh>
+    <!-- Exclude static assets -->
+    <mapping path="/assets/*" exclude="true"/>
+    
+    <!-- Admin Decorator -->
+    <mapping path="/admin/*" decorator="admin-decorator.jsp"/>
+    
+    <!-- Default User Decorator -->
+    <mapping path="/*" decorator="user-decorator.jsp"/>
+</sitemesh>
